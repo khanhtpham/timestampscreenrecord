@@ -1,0 +1,70 @@
+{
+  "@@locale": "en",
+  "appTitle": "Free Screen Record",
+  "tagline": "Screen recorder • millisecond timestamp",
+  "heroLabelRecording": "BURNING INTO VIDEO",
+  "heroLabelPreview": "TIMESTAMP PREVIEW",
+  "heroDescription": "The yyyy-MM-dd HH:mm:ss.SSS format shows across every screen and is captured straight into the video.",
+  "startRecording": "Start recording",
+  "stopWithTime": "Stop • {time}",
+  "@stopWithTime": {
+    "placeholders": {
+      "time": { "type": "String" }
+    }
+  },
+  "overlayMissing": "No overlay permission — the timestamp won't appear.",
+  "grant": "Grant",
+  "settingTimestampTitle": "Burn millisecond timestamp",
+  "settingTimestampSubtitle": "HH:mm:ss.SSS overlay captured into the video",
+  "settingPosition": "Position",
+  "settingResolution": "Resolution",
+  "settingFontSize": "Font size",
+  "settingBitrate": "Bitrate",
+  "posTop": "Top",
+  "posBottom": "Bottom",
+  "posLeft": "left",
+  "posCenter": "center",
+  "posRight": "right",
+  "positionLabel": "{vertical} • {horizontal}",
+  "@positionLabel": {
+    "placeholders": {
+      "vertical": { "type": "String" },
+      "horizontal": { "type": "String" }
+    }
+  },
+  "scaleVeryLow": "Very low",
+  "scaleLow": "Low",
+  "scaleMedium": "Medium",
+  "scaleOriginal": "Original",
+  "scaleLabel": "{name} ({percent}%)",
+  "@scaleLabel": {
+    "placeholders": {
+      "name": { "type": "String" },
+      "percent": { "type": "int" }
+    }
+  },
+  "recordingsTitle": "Recordings",
+  "noRecordings": "No recordings yet",
+  "deleteTitle": "Delete video?",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "later": "Later",
+  "openSettings": "Open settings",
+  "permissionTitle": "Overlay permission needed",
+  "permissionBody": "To burn the millisecond timestamp onto the video, the app needs the \"Display over other apps\" permission. Open settings to enable it.",
+  "settingTimeFormat": "Timestamp format",
+  "settingUtc": "Use UTC time",
+  "settingElapsed": "Show elapsed timer",
+  "settingAudio": "Record microphone",
+  "settingAudioSubtitle": "Add mic narration to the video",
+  "settingFps": "Show FPS counter",
+  "settingBubble": "Floating stop button",
+  "settingBubbleSubtitle": "Draggable stop control over any app",
+  "errorConsentDenied": "You declined the screen recording permission.",
+  "errorGeneric": "Could not start recording: {detail}",
+  "@errorGeneric": {
+    "placeholders": {
+      "detail": { "type": "String" }
+    }
+  }
+}

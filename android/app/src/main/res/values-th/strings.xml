@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notif_channel_name">การบันทึกหน้าจอ</string>
+    <string name="notif_text">กำลังบันทึกหน้าจอพร้อมประทับเวลาระดับมิลลิวินาที…</string>
+    <string name="notif_stop_action">หยุดและเปิดแอป</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notif_channel_name">Enregistrement d\'écran</string>
+    <string name="notif_text">Enregistrement de l\'écran avec horodatage à la milliseconde…</string>
+    <string name="notif_stop_action">Arrêter et ouvrir l\'app</string>
+</resources>

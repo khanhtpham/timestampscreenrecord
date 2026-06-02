@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notif_channel_name">Grabación de pantalla</string>
+    <string name="notif_text">Grabando la pantalla con marca de tiempo en milisegundos…</string>
+    <string name="notif_stop_action">Detener y abrir la app</string>
+</resources>

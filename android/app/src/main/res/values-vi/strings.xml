@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notif_channel_name">Đang quay màn hình</string>
+    <string name="notif_text">Đang quay màn hình với mốc thời gian mili-giây…</string>
+    <string name="notif_stop_action">Dừng &amp; mở app</string>
+</resources>

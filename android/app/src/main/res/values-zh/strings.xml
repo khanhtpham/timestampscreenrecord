@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notif_channel_name">屏幕录制</string>
+    <string name="notif_text">正在录制屏幕并写入毫秒时间戳…</string>
+    <string name="notif_stop_action">停止并打开应用</string>
+</resources>

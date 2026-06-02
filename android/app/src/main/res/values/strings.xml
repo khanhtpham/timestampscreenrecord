@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notif_channel_name">Screen recording</string>
+    <string name="notif_text">Recording the screen with a millisecond timestamp…</string>
+    <string name="notif_stop_action">Stop &amp; open app</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notif_channel_name">Bildschirmaufnahme</string>
+    <string name="notif_text">Bildschirm wird mit Millisekunden-Zeitstempel aufgenommen…</string>
+    <string name="notif_stop_action">Stoppen und App öffnen</string>
+</resources>

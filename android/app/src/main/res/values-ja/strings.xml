@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notif_channel_name">画面録画</string>
+    <string name="notif_text">ミリ秒タイムスタンプ付きで画面を録画中…</string>
+    <string name="notif_stop_action">停止してアプリを開く</string>
+</resources>
