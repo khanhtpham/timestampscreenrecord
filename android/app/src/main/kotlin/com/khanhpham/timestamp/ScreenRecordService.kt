@@ -1,4 +1,4 @@
-package com.example.freescreenrecord
+package com.khanhpham.timestamp
 
 import android.app.Activity
 import android.app.Notification
@@ -127,7 +127,7 @@ class ScreenRecordService : Service() {
         recorder = rec
 
         virtualDisplay = proj.createVirtualDisplay(
-            "FreeScreenRecord",
+            "Timestamp",
             width,
             height,
             dpi,
@@ -236,7 +236,7 @@ class ScreenRecordService : Service() {
         )
 
         val notification: Notification = Notification.Builder(this, CHANNEL_ID)
-            .setContentTitle("Free Screen Record")
+            .setContentTitle("Timestamp")
             .setContentText(getString(R.string.notif_text))
             .setSmallIcon(R.drawable.ic_record)
             .setOngoing(true)
@@ -256,8 +256,8 @@ class ScreenRecordService : Service() {
     }
 
     companion object {
-        private const val ACTION_START = "com.example.freescreenrecord.START"
-        private const val ACTION_STOP = "com.example.freescreenrecord.STOP"
+        private const val ACTION_START = "com.khanhpham.timestamp.START"
+        private const val ACTION_STOP = "com.khanhpham.timestamp.STOP"
         private const val EXTRA_RESULT_CODE = "result_code"
         private const val EXTRA_DATA = "data"
         private const val CHANNEL_ID = "fsr_recording"

@@ -1,6 +1,6 @@
 # Release & Signing Guide — Timestamp Screen Recorder
 
-App ID (permanent): **`app.timestamprec.screen`**
+App ID (permanent): **`com.khanhpham.timestamp`**
 Store title: **Timestamp Screen Recorder**
 
 ## 1. How signing works (Play App Signing)
@@ -40,7 +40,7 @@ Output: `build/app/outputs/bundle/release/app-release.aab`
 1. **Create app** → name, default language, app type, free/paid.
 2. **Release → Setup → App integrity**: leave **Play App Signing enabled** (default).
 3. **Internal testing → Create release** → upload the `.aab`. The package name
-   locks to `app.timestamprec.screen` on first upload.
+   locks to `com.khanhpham.timestamp` on first upload.
 4. Complete **Privacy Policy URL**, **Data safety**, **Content rating**, and the
    **Foreground service (mediaProjection)** declaration (see DATA_SAFETY.md).
 5. Promote Internal → Closed/Open testing → Production.

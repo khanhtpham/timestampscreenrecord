@@ -1,4 +1,4 @@
-package com.example.freescreenrecord
+package com.khanhpham.timestamp
 
 import android.Manifest
 import android.app.Activity
@@ -158,7 +158,7 @@ class MainActivity : FlutterActivity() {
     }
 
     companion object {
-        private const val CHANNEL = "freescreenrecord/recorder"
+        private const val CHANNEL = "timestamp/recorder"
         private const val REQUEST_CAPTURE = 4711
         private const val REQUEST_AUDIO = 4712
 

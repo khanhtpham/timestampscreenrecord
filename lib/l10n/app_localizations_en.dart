@@ -9,7 +9,7 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
-  String get appTitle => 'Free Screen Record';
+  String get appTitle => 'Timestamp';
 
   @override
   String get tagline => 'Screen recorder • millisecond timestamp';

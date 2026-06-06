@@ -1,6 +1,6 @@
 {
-    "name": "freescreenrecord",
-    "short_name": "freescreenrecord",
+    "name": "Timestamp",
+    "short_name": "Timestamp",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

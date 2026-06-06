@@ -19,7 +19,7 @@ if (hasReleaseKeystore) {
 }
 
 android {
-    namespace = "com.example.freescreenrecord"
+    namespace = "com.khanhpham.timestamp"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -35,7 +35,7 @@ android {
     defaultConfig {
         // Permanent Play Store application id. The internal `namespace` above is
         // the R-class package and intentionally independent of this value.
-        applicationId = "app.timestamprec.screen"
+        applicationId = "com.khanhpham.timestamp"
         // TYPE_APPLICATION_OVERLAY (the millisecond clock burned into the
         // recording) requires API 26+, so raise the floor above Flutter's default.
         minSdk = maxOf(flutter.minSdkVersion, 26)

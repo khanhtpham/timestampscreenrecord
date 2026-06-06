@@ -9,7 +9,7 @@ class AppLocalizationsFr extends AppLocalizations {
   AppLocalizationsFr([String locale = 'fr']) : super(locale);
 
   @override
-  String get appTitle => 'Free Screen Record';
+  String get appTitle => 'Timestamp';
 
   @override
   String get tagline => 'Enregistreur d\'écran • horodatage à la milliseconde';

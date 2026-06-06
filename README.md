@@ -62,7 +62,7 @@ Flutter UI  ──MethodChannel──►  MainActivity
                          └─ FloatingControls   (draggable stop pill)
                                     │
                                     ▼
-                        RecordingStore → Movies/FreeScreenRecord (MediaStore)
+                        RecordingStore → Movies/Timestamp (MediaStore)
 ```
 
 ## 🏗️ Tech stack
@@ -84,7 +84,7 @@ lib/
 ├── theme.dart           # Light/dark AppColors ThemeExtension
 └── l10n/                # app_*.arb for 8 locales
 
-android/app/src/main/kotlin/com/example/freescreenrecord/
+android/app/src/main/kotlin/com/khanhpham/timestamp/
 ├── MainActivity.kt        # MethodChannel + consent + permission flow
 ├── ScreenRecordService.kt # Foreground capture pipeline + RecordConfig
 ├── TimestampOverlay.kt    # Millisecond clock / FPS / elapsed overlay
@@ -140,7 +140,7 @@ yourself. Full policy: [`store/PRIVACY_POLICY.md`](store/PRIVACY_POLICY.md).
 
 ## 📦 Publishing
 
-Application ID: `app.timestamprec.screen`. All Play Console material is in
+Application ID: `com.khanhpham.timestamp`. All Play Console material is in
 [`store/`](store/) — privacy policy, data-safety answers, listing copy (ASO), and a
 step-by-step signing/release guide.
 

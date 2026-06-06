@@ -9,7 +9,7 @@ class AppLocalizationsZh extends AppLocalizations {
   AppLocalizationsZh([String locale = 'zh']) : super(locale);
 
   @override
-  String get appTitle => 'Free Screen Record';
+  String get appTitle => 'Timestamp';
 
   @override
   String get tagline => '屏幕录制 • 毫秒级时间戳';

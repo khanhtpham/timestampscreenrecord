@@ -9,7 +9,7 @@ class AppLocalizationsJa extends AppLocalizations {
   AppLocalizationsJa([String locale = 'ja']) : super(locale);
 
   @override
-  String get appTitle => 'Free Screen Record';
+  String get appTitle => 'Timestamp';
 
   @override
   String get tagline => '画面録画 • ミリ秒タイムスタンプ';

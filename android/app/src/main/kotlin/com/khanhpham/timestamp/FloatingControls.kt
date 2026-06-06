@@ -1,4 +1,4 @@
-package com.example.freescreenrecord
+package com.khanhpham.timestamp
 
 import android.content.Context
 import android.graphics.Color

@@ -1,11 +1,11 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:freescreenrecord/main.dart';
-import 'package:freescreenrecord/widgets.dart';
+import 'package:timestamp/main.dart';
+import 'package:timestamp/widgets.dart';
 
 void main() {
-  const channel = MethodChannel('freescreenrecord/recorder');
+  const channel = MethodChannel('timestamp/recorder');
 
   setUp(() {
     // Stub the native side so the widget can build under test.
@@ -54,11 +54,11 @@ void main() {
 
   testWidgets('home screen shows the app title and record button',
       (tester) async {
-    await tester.pumpWidget(const FreeScreenRecordApp());
+    await tester.pumpWidget(const TimestampApp());
     await tester.pump();
 
     // Default test locale is English (first supported locale).
-    expect(find.text('Free Screen Record'), findsOneWidget);
+    expect(find.text('Timestamp'), findsOneWidget);
     expect(find.text('Start recording'), findsOneWidget);
   });
 }

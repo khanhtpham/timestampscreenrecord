@@ -120,7 +120,7 @@ class Recording {
 /// Thin wrapper over the platform MethodChannel.
 class RecorderChannel {
   static const MethodChannel _channel =
-      MethodChannel('freescreenrecord/recorder');
+      MethodChannel('timestamp/recorder');
 
   Future<bool> hasOverlayPermission() async =>
       (await _channel.invokeMethod<bool>('hasOverlayPermission')) ?? false;

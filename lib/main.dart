@@ -8,11 +8,11 @@ import 'theme.dart';
 import 'widgets.dart';
 
 void main() {
-  runApp(const FreeScreenRecordApp());
+  runApp(const TimestampApp());
 }
 
-class FreeScreenRecordApp extends StatelessWidget {
-  const FreeScreenRecordApp({super.key});
+class TimestampApp extends StatelessWidget {
+  const TimestampApp({super.key});
 
   @override
   Widget build(BuildContext context) {

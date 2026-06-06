@@ -1,4 +1,4 @@
-package com.example.freescreenrecord
+package com.khanhpham.timestamp
 
 import android.content.ContentUris
 import android.content.ContentValues
@@ -15,7 +15,7 @@ import java.util.Date
 import java.util.Locale
 
 /**
- * Persists recordings to the public Movies/FreeScreenRecord collection.
+ * Persists recordings to the public Movies/Timestamp collection.
  *
  * On Android 10+ (scoped storage) it uses MediaStore with an IS_PENDING flag so
  * the file is invisible to the gallery until [finalize] commits it. On older
@@ -24,7 +24,7 @@ import java.util.Locale
  */
 object RecordingStore {
 
-    private const val FOLDER = "FreeScreenRecord"
+    private const val FOLDER = "Timestamp"
     private val RELATIVE_PATH = "${Environment.DIRECTORY_MOVIES}/$FOLDER"
 
     /** Handle to an in-progress recording target. */

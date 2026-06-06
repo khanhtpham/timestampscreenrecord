@@ -1,6 +1,6 @@
 {
   "@@locale": "zh",
-  "appTitle": "Free Screen Record",
+  "appTitle": "Timestamp",
   "tagline": "屏幕录制 • 毫秒级时间戳",
   "heroLabelRecording": "正在写入视频",
   "heroLabelPreview": "时间戳预览",

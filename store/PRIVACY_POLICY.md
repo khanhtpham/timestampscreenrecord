@@ -2,7 +2,7 @@
 
 _Last updated: 2 June 2026_
 
-Timestamp Screen Recorder ("the app", package `app.timestamprec.screen`) is a
+Timestamp Screen Recorder ("the app", package `com.khanhpham.timestamp`) is a
 screen-recording tool that overlays a millisecond timestamp onto the recording.
 This policy explains what the app does and does not do with your information.
 
@@ -25,7 +25,7 @@ Everything happens on your device.
 
 ## Where recordings are stored
 
-Recordings are saved locally to your device's **Movies/FreeScreenRecord**
+Recordings are saved locally to your device's **Movies/Timestamp**
 folder (via the Android MediaStore). They never leave your device unless **you**
 choose to share or move them using other apps. You can delete any recording from
 within the app at any time.

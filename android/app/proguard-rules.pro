@@ -6,5 +6,5 @@
 
 # Our components are instantiated by the framework via the manifest. AGP keeps
 # manifest-referenced classes, but pin them explicitly to be safe.
--keep class com.example.freescreenrecord.MainActivity { *; }
--keep class com.example.freescreenrecord.ScreenRecordService { *; }
+-keep class com.khanhpham.timestamp.MainActivity { *; }
+-keep class com.khanhpham.timestamp.ScreenRecordService { *; }
